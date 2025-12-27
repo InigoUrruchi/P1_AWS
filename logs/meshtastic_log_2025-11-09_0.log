@@ -1,0 +1,47 @@
+from: 2972534216
+to: 4294967295
+channel: 179
+decoded {
+  portnum: NODEINFO_APP
+  payload: "id: \"!b12d45c8\" long_name: \"Inigo\" short_name: \"INI\" hw_model: PRIVATE_HW"
+}
+id: 1378987336
+hop_limit: 3
+
+from: 2972534216
+to: 4294967295
+channel: 179
+decoded {
+  portnum: POSITION_APP
+  payload: "latitude_i: 0 longitude_i: 0 altitude: 0 time: 1762691444"
+  want_response: true
+}
+id: 1378987337
+hop_limit: 3
+
+from: 2925567208
+to: 2972534216
+channel: 179
+decoded {
+  portnum: ROUTING_APP
+  payload: "error_reason: NO_RESPONSE"
+  request_id: 1378987337
+  bitfield: 1
+}
+id: 2142157882
+rx_time: 1762691427
+hop_limit: 3
+priority: ACK
+hop_start: 3
+relay_node: 232
+
+from: 2972534216
+to: 4294967295
+channel: 179
+decoded {
+  portnum: TEXT_MESSAGE_APP
+  payload: "Soy Inigo"
+}
+id: 1378987338
+hop_limit: 3
+
